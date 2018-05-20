@@ -1,0 +1,103 @@
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input{/* -webkit-appearance:none; */ resize: none;}
+/* 取消链接高亮  */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    font-family: Microsoft YaHei;}
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+    display: block;
+}
+/* 图片自适应 */
+img {
+    max-width: 100%;
+    height: auto;
+    width:auto\9; /* ie8 */
+    -ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+}
+*:focus {
+    outline:none;
+}
+/* 清零 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none;}
+body{font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self; color:#555; font-size:20px; }
+em,i{font-style:normal;}
+strong{font-weight: normal;}
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{zoom:1;}
+a{text-decoration:none; color:#969696; font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;}
+a:hover{text-decoration:none;}
+ul,ol,li{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;}
+fieldset,img{border: none;}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+caption, th {
+    text-align:left;
+}
+q:before,
+q:after {
+    content:"";
+}
+input:password {
+    ime-mode:disabled;
+}
+*{box-sizing:border-box;}
+
+
+.main{ font-size: 0.34rem; text-align: center; color: #009aea; font-weight: bold;}
+.subhead{ font-size: 0.26rem; text-align: center; color: #009aea; margin-top: 0.2rem;}
+.structure{ padding: 0.32rem 0.42rem 0;}
+.mtop28{ margin-top: 0.28rem;}
+.hide{ display: none;}
+.left{ float: left;}
+.right{ float: right;}
+.text-ali{ text-align: left !important;}
+.nomargin{ margin: 0 !important;}
+.red{ color: #ff4343;}
+.text-aliR{ text-align: right !important;}
+
+/*头部*/
+header{ height:0.6rem; background:#215592;}
+.logo{ width:100%; height:0.5rem;}
+.logo span{
+	width: 48%;
+    display: inline-block;
+}
+/*底部*/
+footer{ background: #333; color: #fff; padding: 0.2rem; margin-bottom: 0.6rem;}
+.one{ width: 1.54rem; height: 0.54rem; float: left; margin-top: 0.5rem;}
+.two{ width: 4.04rem; float: right; font-size: 0.2rem;}
+/*导航*/
+nav{ width: 6.4rem; height: 0.6rem; background: #215592; position: fixed; bottom: 0; left: 0;}
+.nav{ width: 2.1rem; height: 0.6rem; display: inline-block; position: relative;}
+.nav-first,.nav-second{ width: 2rem; height: 0.6rem; display: inline-block; font-size: 0.24rem; line-height: 0.6rem; color: #fff; text-align: center; border-right: 1px solid #999;}
+.nav-third{ width: 2rem; height: 0.6rem;  display: inline-block; font-size: 0.24rem; line-height: 0.6rem; color: #fff; text-align: center;}
+.nav-s1{ width: 0.36rem; height: 0.22rem; display: inline-block; background: url(../img/sec-01.png); background-size: 100%; margin-right: 0.05rem;}
+.nav-s2{ width: 0.3rem; height: 0.27rem; display: inline-block; background: url(../img/sec-02.png); background-size: 100%; margin-right: 0.05rem;}
+.nav-s3{ width: 0.2rem; height: 0.28rem; display: inline-block; background: url(../img/sec-03.png); background-size: 100%; margin-right: 0.05rem;}
+.D-nav{ width: 2rem; height: 3.5rem; background: #3e6592; position: absolute; top: -3.5rem; left: 0;}
+.sec-n1{ width: 2rem; height: 0.5rem; border-bottom: 1px solid #999; display: block; font-size: 0.22rem; color: #fff; line-height: 0.46rem; text-align: center;}
+.last{ border: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
