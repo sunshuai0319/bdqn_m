@@ -73,6 +73,15 @@
 	position: relative;
 }
 
+.two-l-lession {
+	width: 2.2rem;
+	height: 1.22rem;
+	position: relative;
+	border-style: solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+}
+
 .two-l1 {
 	background: url(../img/school/loo-bg.png) no-repeat;
 	background-size: 100%;
@@ -88,10 +97,77 @@
 	background-size: 100%;
 }
 
+
+.two-l1-lession {
+	background: url(../img/lession/hot01.png) no-repeat;
+	background-size: 100%;
+}
+
+.two-l2-lession {
+	background: url(../img/lession/hot03.png) no-repeat;
+	background-size: 100%;
+}
+
+.two-l3-lession {
+	background: url(../img/lession/hot02.png) no-repeat;
+	background-size: 100%;
+}
+.two-l4-lession {
+	background: url(../img/lession/hot04.png) no-repeat;
+	background-size: 100%;
+}
+.two-l5-lession {
+	background: url(../img/lession/hot05.png) no-repeat;
+	background-size: 100%;
+}
+.two-l6-lession {
+	background: url(../img/lession/icon_data.jpg) no-repeat;
+	background-size: 100%;
+}
+.two-l7-lession {
+	background: url(../img/lession/icon_php.jpg) no-repeat;
+	background-size: 100%;
+}
+.two-l8-lession {
+	background: url(../img/lession/icon_web.jpg) no-repeat;
+	background-size: 100%;
+}
+.two-l9-lession {
+	background: url(../img/lession/icon_mark.jpg) no-repeat;
+	background-size: 100%;
+}
+.two-l10-lession {
+	background: url(../img/lession/icon_c.jpg) no-repeat;
+	background-size: 100%;
+}
+.two-l11-lession {
+	background: url(../img/lession/icon_unity.jpg) no-repeat;
+	background-size: 100%;
+}
+.two-l12-lession {
+	background: url(../img/lession/icon_qrs.jpg) no-repeat;
+	background-size: 100%;
+}
+
+
+
 .two-l-p {
 	width: 2.2rem;
 	height: 0.36rem;
 	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: 0.16rem;
+	line-height: 0.36rem;
+	padding-right: 0.1rem;
+	text-align: right;
+}
+
+.two-l-p-lession {
+	width: 2.2rem;
+	height: 0.36rem;
 	color: #fff;
 	position: absolute;
 	left: 0;
@@ -170,6 +246,12 @@
 	margin-top: 0.2rem;
 	text-align: center;
 }
+
+
+
+
+
+
 
 .accp-sec2 {
 	height: 9.4rem;
