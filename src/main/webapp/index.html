@@ -1,388 +1,599 @@
-﻿<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
-		<title>首页</title>
-		<link rel="stylesheet" type="text/css" href="css/common.css">
-		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link href="css/bootstrap-theme.css" rel="stylesheet" />
+		<!-- <script src="js/bootstrap/bootstrap.min.js"></script> -->
+		<link rel="stylesheet" href="dist/idangerous.swiper.css">
+
+		<!-- 引入swiper插件 -->
+
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<title>济南优学堂</title>
+
 	</head>
 
 	<body>
-		<header>
-			<h1 class="logo">
-	<span>
-			<img src="img/logo.png">
-		</span>
-		<span>
-			<img src="img/sec_01.png">
-		</span>
-	</h1>
-		</header>
-
-		<!--焦点图-->
-		<div id="focus" class="focus">
-			<div class="bd">
-				<ul>
-					<li>
-						<a href="gaozhong.html"><img src="img/banner01.png" /></a>
-					</li>
-					<li>
-						<a href="nansheng.html"><img src="img/banner02.png" /></a>
-					</li>
-					<li>
-						<a href="daxuesheng.html"><img src="img/banner03.png" /></a>
-					</li>
-					<li>
-						<a href="jianjie.html"><img src="img/focus04.png" /></a>
-					</li>
-					<li>
-						<a href="nvsheng.html"><img src="img/banner05.png" /></a>
-					</li>
-				</ul>
+		<div class="container">
+			<!-- 轮播图 -->
+			<div class="llb">
+				<div class="swiper-container  swiper-container1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="./image/banner/banner-A.png" width="375px" height="160px"></div>
+						<div class="swiper-slide"><img src="./image/banner/banner-B.png" width="375px" height="160px"></div>
+						<div class="swiper-slide"><img src="./image/banner/banner-C.png" width="375px" height="160px"></div>
+						<div class="swiper-slide"><img src="./image/banner/banner-D.png" width="375px" height="160px"></div>
+						<div class="swiper-slide"><img src="./image/banner/banner-E.png" width="375px" height="160px"></div>
+					</div>
+					<!-- <div class="pagination"></div> -->
+				</div>
 			</div>
-			<div class="hd">
-				<ul></ul>
+
+			<!-- 公告滚动 -->
+			<div class="laba">
+				<img src="./image/icon/laba.png" width="30px" height="30px" style="margin-top:20px;">
+				<div id="wrapper" class="wrapper">
+					<div class="inner">
+						<p class="txt">
+							祝贺王菲同学入职北京联想科技有限公司 &nbsp;&nbsp;&nbsp; 祝贺王振同学入职北京财付通科技有限公司 &nbsp;&nbsp;&nbsp; 祝贺张阳同学入职北京财付通科技有限公司 &nbsp;&nbsp;&nbsp; 祝贺张晓宇同学入职济南开创科技有限公司 &nbsp;&nbsp;&nbsp; 祝贺王兵同学入职济南美联淘科技有限公司 &nbsp;&nbsp;&nbsp; 祝贺魏敏双同学入职北京宜美家网络科技有限公司 &nbsp;&nbsp;&nbsp; 祝贺王龙同学入职美尚金融网络科技有限公司 &nbsp;&nbsp;&nbsp; 祝贺杨冰同学入职济南宜讯科技有限公司
+						</p>
+
+					</div>
+				</div>
 			</div>
-		</div>
 
-		<!-- 课程设置 -->
-		<ul class="ban_cur clearfix">
-			<li>
-				<a href="accp.html">ACCP</a>
-			</li>
-			<li>
-				<a href="benet.html">BENET</a>
-			</li>
-			<li>
-				<a href="java.html">JAVA开发</a>
-			</li>
-			<li>
-				<a href="ui.html">UI设计</a>
-			</li>
-			<li>
-				<a href="accp.html">.NET开发</a>
-			</li>
-		</ul>
+			<!-- 课程排列上层 -->
+			<div class="subject_top">
+				<!-- 上面一层 -->
+				<div class="left">
+					<a href="java.html"><img src="./image/Java.png" width="187.5px"></a>
+				</div>
+				<div class="right">
+					<div class="rg_top">
+						<a href="accp.html"><img src="./image/ACCP.png" width="90px"></a>
+						<a href="benet.html"><img src="./image/BENET.png" width="90px"></a>
+					</div>
+					<div class="rg_bottom rg_top">
+						<a href="ui.html"><img src="./image/UI.png" width="90px"></a>
+						<a href="accp.html"><img src="./image/.NET.png" width="90px"></a>
+					</div>
+				</div>
+			</div>
+			<!-- 课程排列中层 -->
+			<div class="subject_center">
+				<!-- 左边一层 -->
+				<div class="c_left">
+					<div class="c_left_top">
+						<a href="dsj.html"><img src="./image/dsj.png" width="90px"></a>
+						<a href="yun.html"><img src="./image/yjs.png" width="90px"></a>
+					</div>
+					<div class="c_left_bottom">
+						<a href="web.html"><img src="./image/web.png" width="187.5px"></a>
+					</div>
+				</div>
+				<!-- 右边一层 -->
+				<div class="c_right">
+					<a href="php.html"><img src="./image/PHP.png" width="187.5px"></a>
+				</div>
+			</div>
+			<!-- 课程第三层 -->
+			<div class="subject_three">
+				<div>
+					<a href="python.html"><img src="./image/Python.png" width="90px"></a>
+				</div>
+				<div class="margin">
+					<a href="c.html"><img src="./image/C.png" width="187.5px" height="90px"></a>
+				</div>
+				<div class="margin">
+					<a href="unity.html"><img src="./image/unity.png" width="90px"></a>
+				</div>
+			</div>
+			<!-- 课程第四层 -->
+			<div class="subject_top tt">
+				<!-- 上面一层 -->
+				<div class="left">
+					<a href="java.html"><img src="./image/Java.png" width="187.5px"></a>
+				</div>
+				<div class="right">
+					<div class="rg_top">
+						<a href="wlyx.html"><img src="./image/SE.png" width="187.5px" height="90px"></a>
+					</div>
+					<div class="rg_bottom rg_top">
+						<a href="qrs.html"><img src="./image/qrs.png" width="187.5px" height="90px"></a>
+					</div>
+				</div>
+			</div>
 
-		<hr style="border: 0px;" />
-
-		<ul class="ban_cur_second clearfix">
-			<li>
-				<a href="dsj.html">大数据</a>
-			</li>
-			<li>
-				<a href="yun.html">云计算</a>
-			</li>
-			<li>
-				<a href="php.html">PHP</a>
-			</li>
-			<li>
-				<a href="web.html">WEB前端</a>
-			</li>
-			<li>
-				<a href="python.html">Python</a>
-			</li>
-		</ul>
-
-		<hr style="border: 0px;" />
-
-		<ul class="ban_cur_third clearfix">
-			<li>
-				<a href="c.html">C++</a>
-			</li>
-			<li>
-				<a href="unity.html">Unity3D</a>
-			</li>
-			<li>
-				<a href="wlyx.html">SEM/SEO</a>
-			</li>
-			<li>
-				<a href="qrs.html">嵌入式</a>
-			</li>
-			<li>
-				<a href="rjcs.html">软件测试</a>
-			</li>
-		</ul>
-
-		<!--精彩动态-->
-		<div class="news">
-			<h1 class="con-title">北大青鸟精彩动态</h1>
-			<ul>
-				<li class="n-first">
-					<a href="toutiao.html">
-						<img src="img/index/toutiao.png">
-						<p class="toutiao">这个家长会不光家长参加，连学生都超喜欢，期间发生了</p>
+			<!-- 北大学员学生风采 -->
+			<div class="choose student_fc">
+				<div class="top">
+					<div class="kk"></div>
+					<span style="font-size:2rem;margin-left: 10px;">北大青鸟学员风采</span>
+				</div>
+				<div class="pic_fec">
+					<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn">
+						<div class="p_one">
+							<img src="./image/fengcai/student-A.png" width="182px" height="100.5px">
+							<img src="./image/fengcai/student-B.png" width="182px" height="100.5px">
+						</div>
+						<div class="p_one">
+							<img src="./image/fengcai/student-C.png" width="182px" height="100.5px">
+							<img src="./image/fengcai/student-D.png" width="182px" height="100.5px">
+						</div>
+						<div class="p_one">
+							<img src="./image/fengcai/student-E.png" width="182px" height="100.5px">
+							<img src="./image/fengcai/student-F.png" width="182px" height="100.5px">
+						</div>
 					</a>
-				</li>
-				<li>
-					<a href="dongtai01.html" class="con-text">· 北大青鸟杯IT精英挑战赛开战，参赛学员演示智能浇花系统</a><br>
-					<a href="dongtai02.html" class="con-text">· 今年应届生平均薪资比去年不升反降！IT行业排名第一</a><br>
-					<a href="dongtai03.html" class="con-text">· 青鸟java毕业师哥收到offer，曝光个人简历和自我介绍手稿</a><br>
-					<a href="dongtai04.html" class="con-text">· 如何在青鸟快速学会ACCP软件工程师课程（学员心血贴）</a>
-				</li>
-			</ul>
-		</div>
-		<!-- 学什么好 -->
-		<div class="ban_cur_study_apply">
-			<h1 class="con-title">学什么好</h1>
-		</div>
-		<ul class="ban_cur_study clearfix">
-			<li>
-				<a href="chuzhong.html">初中生</a>
-			</li>
-			<li>
-				<a href="gaozhong.html">高中生</a>
-			</li>
-			<li>
-				<a href="daxuesheng.html">大学生</a>
-			</li>
-			<li>
-				<a href="nansheng.html">男生</a>
-			</li>
-			<li>
-				<a href="nvsheng.html" >女生</a>
-			</li>
-			<li>
-				<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn" >待业</a>
-			</li>
-			<li>
-				<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn" >转行提升</a>
-			</li>
-			<li>
-				<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn" >退伍军人</a>
-			</li>
-		</ul>
-
-		<div class="study_img">
-			<a href="gaozhong.html"><img src="img/banner01.png" /></a>
-			<a href="gaokao.html"><img src="img/banner03.png" /></a>
-			<a href="nansheng.html"><img src="img/banner02.png" /></a>
-			<a href="nvsheng.html"><img src="img/banner05.png" /></a>
-		</div>
-
-		<!-- 热门专业 -->
-		<div class="hot_major">
-			<h1 class="con-title">北大青鸟热门专业</h1>
-		</div>
-
-		<!--轮播-->
-		<div id="hot_major" class="focus">
-			<div class="bd">
-				<ul>
-					<li>
-						<a href="zhuanye.html"><img src="img/banner01.png" /></a>
-					</li>
-					<li>
-						<a href="zhuanye.html"><img src="img/banner02.png" /></a>
-					</li>
-					<li>
-						<a href="zhuanye.html"><img src="img/banner03.png" /></a>
-					</li>
-					<li>
-						<a href="zhuanye.html"><img src="img/focus04.png" /></a>
-					</li>
-					<li>
-						<a href="zhuanye.html"><img src="img/banner05.png" /></a>
-					</li>
-				</ul>
+				</div>
 			</div>
-			<div class="hd">
-				<ul></ul>
+
+			<!-- 万千学员的选择 -->
+			<div class="choose">
+				<div class="top">
+					<div class="kk"></div>
+					<span style="font-size:2rem;margin-left: 10px;">万千学员的选择</span>
+				</div>
+				<div class="pic">
+					<div class="pic_top">
+						<div class="zixun">
+							<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/consult-A.png" width="45px"></a>
+						</div>
+						<img src="./image/Junior-high school-students.png" width="93.75px" height="90px">
+						<div class="zixun zixun_1">
+							<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/consult-D.png" width="45px"></a>
+						</div>
+						<img src="./image/high-school-student.png" width="93.75px" height="90px">
+						<div class="zixun zixun_2">
+							<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/consult-A.png" width="45px"></a>
+						</div>
+						<img src="./image/college-student.png" width="93.75px" height="90px">
+						<div class="zixun zixun_3">
+							<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/consult-D.png" width="45px"></a>
+						</div>
+						<img src="./image/boy.png" width="93.75px" height="90px">
+					</div>
+					<div class="pic_top">
+						<div class="zixun">
+							<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/consult-D.png" width="45px"></a>
+						</div>
+						<img src="./image/girl.png" width="93.75px" height="90px">
+						<div class="zixun zixun_1">
+							<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/consult-A.png" width="45px"></a>
+						</div>
+						<img src="./image/wait-for-employment.png" width="93.75px" height="90px">
+						<div class="zixun zixun_2">
+							<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/consult-D.png" width="45px"></a>
+						</div>
+						<img src="./image/promote.png" width="93.75px" height="90px">
+						<div class="zixun zixun_3">
+							<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/consult-A.png" width="45px"></a>
+						</div>
+						<img src="./image/Veterans.png" width="93.75px" height="90px">
+					</div>
+				</div>
+			</div>
+			<!-- 首图宣传 -->
+			<div class="head">
+				<a href="nansheng.html"><img src="./image/banner/banner_c.png" width="375px"></a>
+				<a href="chuzhong.html"><img src="./image/banner/banner_b.png" width="375px" style="margin-top:10px;"></a>
+				<a href="gaozhong.html"><img src="./image/banner/banner_G.png" width="375px" style="margin-top:10px;"></a>
+				<a href="nvsheng.html"><img src="./image/banner/banner_F.png" width="375px" style="margin-top:10px;"></a>
+			</div>
+
+			<!-- 师资力量 -->
+			<div class="choose">
+				<div class="top">
+					<div class="kk"></div>
+					<span style="font-size:2rem;margin-left: 10px;">师资力量</span>
+				</div>
+				<div class="swiper-container swiper-container-teacher swiper-container2">
+
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide teacher_rg">
+							<a href="shizi.html">
+								<img src="./image/teacher/C-teacher.png" width="85px">
+							</a>
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<a href="shizi.html">
+								<img src="./image/teacher/dsj-teacher.png" width="85px">
+							</a>
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<a href="shizi.html">
+								<img src="./image/teacher/UI-teacher.png" width="85px">
+							</a>
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<a href="shizi.html">
+								<img src="./image/teacher/WEB-teacher.png" width="85px">
+							</a>
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<a href="shizi.html">
+								<img src="./image/teacher/wlgc-teacher.png" width="85px">
+							</a>
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<a href="shizi.html">
+								<img src="./image/teacher/yjs-teacher.png" width="85px">
+							</a>
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<a href="shizi.html">
+								<img src="./image/teacher/OA-teacher.png" width="85px">
+							</a>
+
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<a href="shizi.html">
+								<img src="./image/teacher/PHP-teacher.png" width="85px">
+							</a>
+						</div>
+
+					</div>
+
+					<div class="pagination pagination2"></div>
+				</div>
+			</div>
+
+			<!-- 2018名企助学班火热报名中 表格-->
+			<div class="choose table_top">
+				<div class="top">
+					<div class="kk"></div>
+					<span style="font-size:2rem;margin-left: 10px;">2018名企助学班火热报名中</span>
+				</div>
+
+				<table class="dataintable" width="375px" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<th>热门专业</th>
+						<th>限定名额</th>
+						<th>剩余名额</th>
+					</tr>
+				</table>
+
+				<div id="demo" style="overflow: hidden; height: 160px;">
+
+					<div id="demo1">
+						<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn">
+							<table width="375px" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#ddd">
+								<tr style="font-size:1.4rem;color:#888888;">
+									<td width="170" align="center">大数据开发工程师</td>
+									<td width="160" align="center">40名</td>
+									<td width="150" align="center" style="color:red;">3名</td>
+								</tr>
+								<tr style="font-size:1.4rem;color:#888888;">
+									<td width="140" align="center">网站开发工程师</td>
+									<td width="160" align="center">45名</td>
+									<td width="150" align="center" style="color:red;">4名</td>
+								</tr>
+								<tr style="font-size:1.4rem;color:#888888;">
+									<td width="140" align="center">UI设计师</td>
+									<td width="160" align="center">35名</td>
+									<td width="150" align="center" style="color:red;">6名</td>
+								</tr>
+								<tr style="font-size:1.4rem;color:#888888;">
+									<td width="140" align="center">WEB前端开发工程师</td>
+									<td width="160" align="center">40名</td>
+									<td width="150" align="center" style="color:red;">6名</td>
+								</tr>
+								<tr style="font-size:1.4rem;color:#888888;">
+									<td width="140" align="center">PHP开发工程师</td>
+									<td width="160" align="center">35名</td>
+									<td width="150" align="center" style="color:red;">2名</td>
+								</tr>
+								<tr style="font-size:1.4rem;color:#888888;">
+									<td width="140" align="center">UI设计师</td>
+									<td width="160" align="center">35名</td>
+									<td width="150" align="center" style="color:red;">6名</td>
+								</tr>
+								<tr style="font-size:1.4rem;color:#888888;">
+									<td width="140" align="center">WEB前端开发工程师</td>
+									<td width="160" align="center">40名</td>
+									<td width="150" align="center" style="color:red;">6名</td>
+								</tr>
+								<tr style="font-size:1.4rem;color:#888888;">
+									<td width="140" align="center">PHP开发工程师</td>
+									<td width="160" align="center">35名</td>
+									<td width="150" align="center" style="color:red;">2名</td>
+								</tr>
+							</table>
+						</a>
+					</div>
+					<div id="demo2"></div>
+				</div>
+
+			</div>
+
+			<!-- 就业明星 -->
+			<div class="choose student_fc">
+				<div class="top">
+					<div class="kk"></div>
+					<span style="font-size:2rem;margin-left: 10px;">就业明星</span>
+				</div>
+				<div class="pic_fec">
+					<a href="jiuye.html">
+						<div class="p_one">
+							<img src="./image/jiuye/salary-A.png" width="182px" height="100.5px">
+							<img src="./image/jiuye/salary-B.png" width="182px" height="100.5px">
+						</div>
+						<div class="p_one">
+							<img src="./image/jiuye/salary-C.png" width="182px" height="100.5px">
+							<img src="./image/jiuye/salary-D.png" width="182px" height="100.5px">
+						</div>
+						<div class="p_one">
+							<img src="./image/jiuye/salary-E.png" width="182px" height="100.5px">
+							<img src="./image/jiuye/salary-F.png" width="182px" height="100.5px">
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<!-- 校园风采 -->
+			<div class="choose student_fc">
+				<div class="top">
+					<div class="kk"></div>
+					<span style="font-size:2rem;margin-left: 10px;">北大青鸟校区风采</span>
+				</div>
+				<div class="pic_fec">
+					<a href="jianjie.html">
+						<div class="p_one">
+							<img src="./image/school/scenery-A.png" width="182px" height="100.5px">
+							<img src="./image/school/scenery-B.png" width="182px" height="100.5px">
+						</div>
+						<div class="p_one">
+							<img src="./image/school/scenery-C.png" width="182px" height="100.5px">
+							<img src="./image/school/scenery-D.png" width="182px" height="100.5px">
+						</div>
+						<div class="p_one">
+							<img src="./image/school/scenery-E.png" width="182px" height="100.5px">
+							<img src="./image/school/scenery-F.png" width="182px" height="100.5px">
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<!-- 在读学员项目演练 -->
+			<!-- 师资力量 -->
+			<div class="choose">
+				<div class="top">
+					<div class="kk"></div>
+					<span style="font-size:2rem;margin-left: 10px;">在读学员项目演练</span>
+				</div>
+				<div class="swiper-container swiper-container-teacher swiper-container3">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-A.png" width="149px">
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-B.png" width="149px">
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-C.png" width="149px">
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-D.png" width="149px">
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-E.png" width="149px">
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-F.png" width="149px">
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-G.png" width="149px">
+
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-H.png" width="149px">
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-I.png" width="149px">
+						</div>
+						<div class="swiper-slide teacher_rg">
+							<img src="./image/xueyuanob/drill-J.png" width="149px">
+						</div>
+
+					</div>
+					<div class="pagination pagination3"></div>
+				</div>
+			</div>
+			<!-- 拿到企业offer 北大青鸟学员获得高度认可 -->
+			<div class="choose">
+				<div class="top c_top">
+					<div class="kk"></div>
+					<span style="font-size:2rem;margin-left: 10px;">拿到企业offer 北大青鸟学员获得高度认可</span>
+				</div>
+				<div class="qiye_pic">
+					<div class="qiye_pic_top">
+						<div>
+							<a href=""><img src="./image/qiye/jd.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/baidu.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/tx.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/sh.png" width="86.5px"></a>
+						</div>
+					</div>
+					<div class="qiye_pic_top">
+						<div>
+							<a href=""><img src="./image/qiye/xl.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/LG.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/IBM.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/fz.png" width="86.5px"></a>
+						</div>
+					</div>
+					<div class="qiye_pic_top">
+						<div>
+							<a href=""><img src="./image/qiye/NEC.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/zk.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/dr.png" width="86.5px"></a>
+						</div>
+						<div>
+							<a href=""><img src="./image/qiye/dd.png" width="86.5px"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 咨询 -->
+			<div class="qiye_pic_top yy">
+				<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/zixun/zi1.png" width="94.5px"></a>
+				<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/zixun/zi2.png" width="94.5px"></a>
+
+				<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/zixun/zi3.png" width="94.5px"></a>
+
+				<a href="http://dct.zoosnet.net/LR/Chatpre.aspx?id=DCT73376465&lng=cn"><img src="./image/zixun/zi4.png" width="94.5px"></a>
+
+			</div>
+			<div class="contact">
+				<img src="./image/zixun/lxdz.png" width="375px">
+			</div>
+			<!-- 底部导航 -->
+			<div class="navagator">
+
+				<div class="icon">
+					<a href="#"><img src="./image/icon/navigation.png" width="65px"></a>
+				</div>
+				<div class="dh">
+					<a href="tel:0531-87919883"><img src="./image/icon/Telephone-consultation.png" width="65px"></a>
+				</div>
+				<div class="tel">
+					<a href="xuefei.html"><img src="./image/icon/tuition.png" width="65px"></a>
+				</div>
 			</div>
 		</div>
 
-		<!--大数据-->
-		<div class="apply" >
-			<h1 class="con-title">北大青鸟大数据开发工程师</h1>
-			<a href="dsj.html"><img class="app-img" src="img/index/111111.jpg"></a>
-		</div>
-		<!--校园环境-->
-		<div class="school" style="position: relative;top: -40px;">
-			<h1 class="con-title">校园环境</h1>
-			<ul class="sch-con">
-				<li class="sch-first clearfix">
-					<div class="first left"><img src="img/index/sec-sch-01.png"></div>
-					<div class="second left"><img src="img/index/sec-sch-02.png"></div>
-					<div class="third left"><img src="img/index/sec-sch-03.png"></div>
-				</li>
-				<li class="sch-second clearfix hide">
-					<div class="second no-margin"><img src="img/index/sec-sch-02.png"></div>
-					<div class="third no-margin"><img src="img/index/sec-sch-03.png"></div>
-					<div class="first"><img src="img/index/sec-sch-01.png"></div>
-				</li>
-			</ul>
-		</div>
-
-		<!--云计算-->
-		<div class="apply" style="position: relative;top: -50px;">
-			<h1 class="con-title">北大青鸟大数据开发工程师</h1>
-			<a href="yun.html"><img class="app-img" src="img/yun/banner.jpg"></a>
-		</div>
-
-		<!--轮播-->
-		<!--<div id="study_porject" class="focus">
-			<div class="bd">
-				<ul>
-					<li>
-						<a href="zhuanye.html"><img src="img/banner01.png" /></a>
-					</li>
-					<li>
-						<a href="zhuanye.html"><img src="img/banner02.png" /></a>
-					</li>
-					<li>
-						<a href="zhuanye.html"><img src="img/banner03.png" /></a>
-					</li>
-					<li>
-						<a href="zhuanye.html"><img src="img/focus04.png" /></a>
-					</li>
-					<li>
-						<a href="zhuanye.html"><img src="img/banner05.png" /></a>
-					</li>
-				</ul>
-			</div>
-			<div class="hd">
-				<ul></ul>
-			</div>
-		</div>-->
-
-		<!--学籍查询-->
-		<!-- 考虑用户点击率不高,建议移入导航栏或者其他二级链接或去除 -->
-		<!--<div class="sel clearfix">
-	<div class="sel-left">
-    	<a href="#">
-            <p class="sel-tit">北大青鸟学籍查询</p>
-            <img class="sel-img mright" src="img/index/sec-xj.png">
-        </a>
-    </div>
-    <div class="sel-right">
-    	<a href="#">
-            <p class="sel-tit mleft">北大青鸟校区查询</p>
-            <img class="sel-img" src="img/index/sec-xq.png">
-        </a>
-    </div>
-</div>-->
-
-		<!--footer-->
-		<footer class="clearfix" style="position: relative;top:-135px;">
-			<ul>
-				<li class="one"><img src="img/logo-foot.png"></li>
-				<li class="two">
-					<p>山东尚学堂信息技术有限公司 版权所有<br />地址：山东省济南市槐荫区经十路军泰写字楼6楼(市立五院对面)<br />电话：0531-87919883<br />网址： http://m.bdqnsxt.com/<br />鲁ICP备 18012331号</p>
-				</li>
-			</ul>
-		</footer>
-		<!--nav-->
-		<nav>
-			<div class="nav">
-				<a href="javascript:;" class="nav-first"><span class="nav-s1"></span>网站导航</a>
-				<ul class="D-nav hide">
-					<li>
-						<a href="index.html" class="sec-n1">首页</a>
-					</li>
-					<li>
-						<a href="zhuanye.html" class="sec-n1">热门专业</a>
-					</li>
-					<li>
-						<a href="shizi.html" class="sec-n1">金牌师资</a>
-					</li>
-					<li>
-						<a href="jiuye.html" class="sec-n1">高薪就业</a>
-					</li>
-					<li>
-						<a href="gaokao.html" class="sec-n1">高考招生</a>
-					</li>
-					<li>
-						<a href="jianjie.html" class="sec-n1">学校简介</a>
-					</li>
-					<li>
-						<a href="contact.html" class="sec-n1 last">联系我们</a>
-					</li>
-				</ul>
-			</div>
-			<a href="tel:0531-87919883" class="nav-second"><span class="nav-s3"></span>电话咨询</a>
-			<a href="xuefei.html" class="nav-second"><span class=""></span>学费详情</a>
-		</nav>
-		<script>
-			(function() {
-				//计算根的font-size值
-				document.addEventListener('DOMContentLoaded', function() {
-					var html = document.documentElement;
-					var windowWidth = html.clientWidth;
-					html.style.fontSize = windowWidth / 6.4 + 'px';
-					// 等价于html.style.fontSize = windowWidth / 640 * 100 + 'px';  
-				}, false);
-			})();
-		</script>
-		<script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="dist/idangerous.swiper.min.js"></script>
 		<script type="text/javascript">
-			TouchSlide({
-				slideCell: "#focus",
-				titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
-				mainCell: ".bd ul",
-				effect: "leftLoop",
-				autoPlay: true, //自动播放
-				autoPage: true //自动分页
-			});
-		</script>
+			// 轮播图滚动效果
+			var mySwiper = new Swiper('.swiper-container1', {
 
-		<!-- 热门专业轮播 -->
-		<script type="text/javascript">
-			TouchSlide({
-				slideCell: "#hot_major",
-				titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
-				mainCell: ".bd ul",
-				effect: "leftLoop",
-				autoPlay: true, //自动播放
-				autoPage: true //自动分页
-			});
-		</script>
+				paginationClickable: true,
+				grabCursor: true,
+				speed: 2000,
+				loop: true,
+				observer: true,
+				observeParents: true,
+				autoplayDisableOnInteraction: false,
+				autoplay: 1500
+			})
 
-		<!-- 项目演练轮播 -->
-		<script type="text/javascript">
-			TouchSlide({
-				slideCell: "#study_porject",
-				titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
-				mainCell: ".bd ul",
-				effect: "leftLoop",
-				autoPlay: true, //自动播放
-				autoPage: true //自动分页
-			});
-		</script>
+			var mySwiper2 = new Swiper('.swiper-container2', {
 
-		<script>
-			$(function() {
-				var interval = 3000;
-				var s = 600;
-				var nowimg = 0;
-				var $imageslistLis = $(".sch-con li");
-				var liAmount = $imageslistLis.length;
+				pagination: '.pagination2',
+				paginationClickable: true,
+				slidesPerView: 5,
+				speed: 3000,
+				loop: true,
+				observer: true,
+				observeParents: true,
+				autoplayDisableOnInteraction: false,
+				autoplay: 1000,
+				spaceBetween: 0,
+				mousewheelControl: true
 
-				function rightButFunc() {
-					if(!$imageslistLis.is(":animated")) {
-						$imageslistLis.eq(nowimg).fadeOut(s);
-						nowimg++;
-						if(nowimg > liAmount - 1) {
-							nowimg = 0;
-						}
-						$imageslistLis.eq(nowimg).fadeIn(s);
-					}
-				}
-				var timer = setInterval(rightButFunc, interval);
+			})
+			// 在读学员项目
+			var mySwiper3 = new Swiper('.swiper-container3', {
 
-				$('body').click(function() {
-					$('.D-nav').hide();
-				});
-				$('.nav').eq(0).click(function(event) {
-					event.stopPropagation();
-					$('.D-nav').toggle();
-				});
+				pagination: '.pagination3',
+				paginationClickable: true,
+				slidesPerView: 4,
+				speed: 1500,
+				loop: true,
+				observer: true,
+				observeParents: true,
+				autoplayDisableOnInteraction: false,
+				autoplay: 1000,
+				mousewheelControl: true
+
 			})
 		</script>
+		<!-- 热门广播滚动 -->
+		<script>
+			var wrapper = document.getElementById('wrapper');
+			var inner = wrapper.getElementsByTagName('div')[0];
+			var p = document.getElementsByTagName('p')[0];
+			var p_w = p.offsetWidth;
+			var wrapper_w = wrapper.offsetWidth;
+			window.onload = function fun() {
+				if(wrapper_w > p_w) {
+					return false;
+				}
+				inner.innerHTML += inner.innerHTML;
+				setTimeout("fun1()", 3000);
+			}
+
+			function fun1() {
+				if(p_w > wrapper.scrollLeft) {
+					wrapper.scrollLeft++;
+					setTimeout("fun1()", 30);
+				} else {
+					setTimeout("fun2()", 2000);
+				}
+			}
+
+			function fun2() {
+				wrapper.scrollLeft = 0;
+				fun1();
+			}
+		</script>
+		<!-- 表格滚动 -->
+		<script type="text/javascript">
+			var speed = 60;
+			var demo = document.getElementById('demo');
+			var demo1 = document.getElementById('demo1');
+			var demo2 = document.getElementById('demo2');
+			demo2.innerHTML = demo1.innerHTML;
+
+			function Marquee() {
+				if(demo2.offsetTop - demo.scrollTop <= 0) {
+					demo.scrollTop -= demo1.offsetHeight;
+
+				} else {
+					demo.scrollTop++;
+					console.log(demo.scrollTop)
+					if(demo.scrollTop == 300) {
+						demo.scrollTop = 1;
+						demo.scrollTop++;
+					}
+				}
+			}
+			var MyMar = setInterval(Marquee, speed);
+
+			demo.onmouseover = function() {
+				clearInterval(MyMar);
+			}
+
+			demo.onmouseout = function() {
+				MyMar = setInterval(Marquee, speed);
+			}
+		</script>
+		
 		<script src="https://s22.cnzz.com/z_stat.php?id=1273548098&web_id=1273548098" language="JavaScript"></script>
 	</body>
+	
 	<script language="javascript">
 		if(document.all || document.getElementById) {
 			document.write('<span id="LR_User_Icon0"></span>');

@@ -1,0 +1,308 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container{
+	height:auto;
+	/*background: #ddd;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/**/
+
+.head{
+	display: flex;
+	flex-direction: column;
+	margin-top:20px;
+
+}
+
+.subject_top{
+	width:375px;
+	height:auto;
+	margin-top:15px;
+	display: flex;
+	flex-direction: row;
+}
+.left{
+	width:50%;
+}
+.right{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+	margin-left:4px;
+}
+.rg_top{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+.rg_bottom{
+	margin-top:7px;
+}
+.subject_center{
+	width:375px;
+	height:auto;
+	margin-top:4px;
+	display: flex;
+	flex-direction: row;
+
+}
+.c_left{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+}
+.c_left_top{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	
+}
+.c_left_bottom{
+	margin-top:5px;
+}
+.c_right{
+	width:50%;
+	margin-left: 4px;
+}
+.subject_three{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	margin-top:4px;
+
+}
+.margin{
+	width:100%;
+	margin-left:4px;
+}
+.tt{
+	margin-top:4px;
+}
+.choose{
+	width:375px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top:40px;
+}
+.llb{
+	/*margin-top:-20px;*/
+	width:375px;
+	/*height: auto;*/
+	/*display: flex;
+	flex-direction: column;*/
+}
+.top{
+	display: flex;
+	flex-direction: row;
+}
+.kk{
+	width:10px;
+	height:30px;
+	background: #215591;
+}
+.student_fc{
+	height: auto;
+}
+.pic{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	margin-top:20px;
+	background: pink;
+}
+.pic_top{
+	display: flex;
+	flex-direction: row;
+}
+.zixun{
+	position: absolute;
+	margin-top:55px;
+	margin-left:6px;
+}
+.zixun_1{
+	margin-left:100px;
+}
+.zixun_2{
+	margin-left:194px;
+}
+.zixun_3{
+	margin-left:286px;
+}
+.pic_fec{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+		
+}
+.p_one{
+	display: flex;
+	flex-direction: row;
+	margin-top:20px;
+	justify-content:space-between;
+
+}
+.swiper-container1{
+	width:375px;
+	height: 160px;
+	background: #fff;
+    /*margin-left: -14px;*/
+    display: flex;
+	flex-direction: column;
+	align-content: center;
+
+	
+}
+.img{
+	margin:auto 0;
+}
+.pagination1 {
+  position: absolute;
+  z-index: 20;
+  left: 10px;
+  top: 200px;
+}
+
+.swiper-active-switch {
+  background: #ddd;
+}
+.swiper-slide{
+	/*margin-left:-30px;*/
+}
+.teacher{
+	background: #ddd;
+	height: 600px;
+	width:750px;
+	margin-left:22px;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #222;
+  margin-right: 5px;
+  opacity: 0.8;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.swiper-container-teacher{
+  width: 375px;
+  height: 160px;
+  color: #fff;
+  margin-top:20px;
+}
+.teacher_rg{
+	margin-left:70px;
+}
+.swiper-container3{
+	  height: 160px;
+}
+
+.table_top{
+	margin-top:-20px;
+}
+.dataintable{
+	text-align: center;
+	font-size:1.8rem;
+	margin-top:20px;
+}
+table.dataintable th {
+	vertical-align:baseline;
+	padding:5px 15px 5px 6px;
+	background-color:#999999;
+	text-align:center;
+	color:#fff;
+	}
+td {height: 35px;}
+.dataintable td{
+	padding: 2px;
+	height: 18px;
+}
+.c_top{
+	margin-top:-40px;
+}
+
+.qiye_pic{
+	margin-top:30px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+
+}
+.qiye_pic_top{
+	display: flex;
+	flex-direction: row;
+
+}
+.yy{
+	width:375px;
+	margin-top:20px;
+
+}
+.contact{
+	/*margin-left:10px;*/
+	margin:auto 0;
+}
+
+.wrapper{font-size: 1.5rem;
+	 color: red; 
+	 padding-top: 0.75rem;
+	  margin: 0 0.75rem;
+	   white-space: nowrap;
+	    overflow: hidden;
+	    width: 300px;
+	    margin-top:20px;
+}
+.inner{ width:3000px;overflow:hidden;}
+.inner p{ display:inline-block;}
+
+ .laba{
+  	/*position: fixed;*/
+  	display: flex;
+	flex-direction: row;
+  }
+  .navagator{
+  	width:375px;
+  	height:60px;
+  	background: #fff;
+  	position: fixed;
+  	bottom: 0;
+  }
+  .navagator{
+  	display: flex;
+  	flex-direction: row;
+  	justify-content:space-around;
+  	line-height: 60px;
+  }
